@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="flex0">
+        <div class="div1">
+            <img src="./files/mono.png" alt="Imagen del mono de Mailchimp">
+        </div>
+
+        <div class="div2">
+            <h1>Welcome to Mailchimp</h1>
+            <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an acount? <a class="a1" href="#">Log in</a></p>
+
+            <!-- Cuestionario -->
+            <form action="#">
+                <!-- Email -->
+                <div class="padding1">
+                    <label for="email" class="lebel"><strong>Email</strong></label>
+                </div>
+                <div class="padding2">
+                    <input class="checkbox" type="email" name="email" id="email" placeholder="example: pepe@mailchimp.com">
+                </div>
+                <!-- Username -->
+                <div class="padding1">
+                    <label for="userName" class="lebel"><strong>Username</strong></label>
+                </div>
+                <div class="padding2">
+                    <input class="checkbox" type="text" name="text" id="userName" placeholder="example: pepe1999">
+                </div>
+                <!-- Password -->
+                <div class="padding1">
+                    <div class="spacee">
+                        <label for="password" class="lebel"><strong>Password</strong></label>
+                        <img src="./files/show.png" alt="show password" class="imgg">
+                    </div>
+                    
+                </div>
+                <div>
+                    <input class="checkbox" type="password" name="password" id="password" placeholder="caution: you must not share your password">
+                </div>
+            </form>
+
+            <!-- Requisitos del cuestionario -->
+            <div class="lista">
+                <ul class="espacioLista">
+                    <li>One lowercase character</li>
+                    <li>One uppercase character</li>
+                    <li>One number</li>
+                </ul>
+                <ul class="letrucha">
+                    <li>One special character</li>
+                    <li>8 characters minimum</li>
+                </ul>
+            </div>
+            
+            <!-- Botón de Sing Up y checkbox -->
+            <div class="flex1">
+                <button class="e1">Sing Up</button>
+
+                <div class="flex2">
+                    <input type="checkbox" class="mini">
+    
+                    <p class="letrita1">I don't want to recive emails about new Mailchimp products, best practices, or special offeres</p>
+                </div>
+            </div>
+            
+            <!-- Terminos y condiciones -->
+            <p class="letrita2">By cliking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a class="a2" href="#">Terms of Use</a> and <a class="a2" href="#">Privacy Policy</a>.</p>
+        </div>
+    </main> 
+</body>
+</html>

@@ -1,0 +1,104 @@
+main{
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+h1{
+    font-family: 'Slabo 27px', serif;
+}
+
+.flex0{
+    display: flex;
+}
+
+.imgg{
+    width: 50px;
+    height: 15px;
+}
+.imgg:hover{
+    color:red;
+}
+
+.spacee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding1{
+    padding-bottom: 4px;
+}
+
+.padding2{
+    padding-bottom: 20px;
+}
+
+.lista{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.espacioLista{
+    font-size: 13px;
+    margin-left: -25px;
+}
+
+.letrucha{
+    font-size: 13px;
+}
+
+.lebel{
+    font-size: 13px;
+}
+
+.checkbox{
+    width: 450px;
+    height: 30px;
+}
+
+.letrita1{
+    
+    margin-left: 10px;
+    margin-top: 0%;
+    font-size: 13px;
+}
+
+.letrita2{
+    font-size: 13px;
+    
+}
+
+button{
+    width: 170px;
+    height: 35px;
+}
+
+.e1{
+    margin-right: 20px;
+}
+
+.flex1{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini{
+    width: 30px;
+    height: 30px;
+}
+
+.a1{
+    color: rgb(10, 124, 124);
+    text-decoration: none;
+}
+
+.a2{
+    color: rgb(10, 124, 124);
+}
+
+
